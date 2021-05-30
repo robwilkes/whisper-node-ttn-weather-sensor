@@ -30,11 +30,11 @@ If you need to support more sensors, and simply wish to know how to optimise it,
 #define LMIC_MAX_FRAME_LENGTH 64    // Sets maximum LoRaWAN message size to 64 bytes
 ```
 
-Before:
-RAM:   [========  ]  80.6% (used 1651 bytes from 2048 bytes)
+Before:  
+RAM:   [========  ]  80.6% (used 1651 bytes from 2048 bytes)  
 Flash: [========= ]  91.7% (used 29576 bytes from 32256 bytes)
 
-After:
-RAM:   [======    ]  59.5% (used 1218 bytes from 2048 bytes)
+After:  
+RAM:   [======    ]  59.5% (used 1218 bytes from 2048 bytes)  
 Flash: [========  ]  83.1% (used 26812 bytes from 32256 bytes)
 
